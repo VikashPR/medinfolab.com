@@ -1,0 +1,34 @@
+[
+  {
+    "id": "default",
+    "mission_title": "Translating Bedside Bio-Signals into Timely Clinical Interventions",
+    "mission_description": "The Medical Informatics and Digital Health (MINDH) Laboratory develops non-invasive physiological monitoring technologies, contactless optical sensors, and foundation models designed for direct deployment at the clinical bedside and in decentralized outpatient settings.",
+    "translation_philosophy": "Every algorithmic advancement in our laboratory is evaluated directly alongside practicing intensivists, cardiologists, and nurses to ensure that predictive power matches real-world clinical workflow constraints.",
+    "director_name": "David Patel, MD, PhD",
+    "director_role": "Director, Medical Informatics & Digital Health Laboratory",
+    "director_bio": "Professor of Biomedical Informatics and Associate Professor of Medicine. Dr. Patel leads multi-center investigations funded by the NIH, NSF, and clinical research foundations, focusing on continuous physiological signal processing and non-invasive cardiovascular sensing.",
+    "director_image": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=600",
+    "milestones": [
+      {
+        "year": "2020",
+        "title": "Laboratory Founded",
+        "desc": "Established with core support from University Health Sciences and Clinical Research Consortium."
+      },
+      {
+        "year": "2022",
+        "title": "First In-Hospital Contactless Trial",
+        "desc": "Deployed non-contact camera sensing across surgical telemetry beds."
+      },
+      {
+        "year": "2023",
+        "title": "NIH R01 Cuffless BP Consortium",
+        "desc": "Multi-center grant awarded for continuous cuffless hemodynamic tracking."
+      },
+      {
+        "year": "2024",
+        "title": "Clinical Foundation Model Published",
+        "desc": "Landmark paper accepted to Nature Digital Medicine on video rPPG."
+      }
+    ]
+  }
+]

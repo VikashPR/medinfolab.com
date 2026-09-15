@@ -1,0 +1,62 @@
+[
+  {
+    "id": "news-1",
+    "title": "Paper on Contactless rPPG Accepted to Nature Digital Medicine",
+    "description": "Our prospective clinical trial evaluating video-based vital sign extraction across 120 ICU beds has been accepted for publication. Demonstrating sub-1.5 BPM mean absolute error without physical skin contact under varied ambient hospital lighting conditions.",
+    "summary": "Our clinical trial evaluating video-based vital sign extraction in 120 ICU beds has been accepted for publication.",
+    "image": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=800",
+    "date": "2024-08-15",
+    "category": "Paper Accepted",
+    "link_text": "Read Publication Details",
+    "link_url": "#publications",
+    "published": 1,
+    "order_index": 0,
+    "created_at": "2024-08-15T08:00:00.000Z",
+    "updated_at": null
+  },
+  {
+    "id": "news-2",
+    "title": "Translational Clinical Pilot Launched with Regional Medical Center",
+    "description": "Commenced prospective hospital deployment of our edge-AI hemodynamic warning system across surgical step-down wards, processing real-time bedside telemetry streams with sub-16ms latency.",
+    "summary": "Commenced prospective hospital deployment of our edge-AI hemodynamic warning system across surgical step-down wards.",
+    "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800",
+    "date": "2024-06-20",
+    "category": "Clinical Pilot",
+    "link_text": "Explore Clinical Pilot",
+    "link_url": "#research",
+    "published": 1,
+    "order_index": 0,
+    "created_at": "2024-06-20T10:30:00.000Z",
+    "updated_at": null
+  },
+  {
+    "id": "news-3",
+    "title": "NIH R01 Grant Awarded for Continuous Cuffless Blood Pressure Research",
+    "description": "A 4-year multi-center investigation into multimodal optical and bioimpedance sensor fusion for ambulatory cardiovascular assessment and non-invasive continuous arterial blood pressure monitoring.",
+    "summary": "A 4-year multi-center investigation into multimodal optical and bioimpedance sensor fusion for ambulatory cardiovascular assessment.",
+    "image": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&q=80&w=800",
+    "date": "2024-04-10",
+    "category": "Grant Award",
+    "link_text": "Inquire Collaboration",
+    "link_url": "#contact",
+    "published": 1,
+    "order_index": 0,
+    "created_at": "2024-04-10T14:15:00.000Z",
+    "updated_at": null
+  },
+  {
+    "id": "news-4",
+    "title": "Keynote at IEEE EMBC: Computational Foundations of Bedside Physiology",
+    "description": "Prof. David Patel presented our laboratory's benchmark findings on self-supervised foundation models trained on continuous multi-lead ECG and photoplethysmography streams.",
+    "summary": "Keynote presentation at IEEE Engineering in Medicine and Biology Society on wearable physiological monitoring.",
+    "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=800",
+    "date": "2024-02-28",
+    "category": "Keynote",
+    "link_text": "View Conference Program",
+    "link_url": "https://www.linkedin.com/company/medical-informatics-and-digital-health-lab/",
+    "published": 1,
+    "order_index": 0,
+    "created_at": "2024-02-28T09:00:00.000Z",
+    "updated_at": null
+  }
+]

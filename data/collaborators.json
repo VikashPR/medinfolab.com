@@ -1,0 +1,135 @@
+[
+  {
+    "id": "collab-1",
+    "name": "Massachusetts General Hospital & Harvard Medical School",
+    "short_name": "Mass General / Harvard",
+    "category": "Clinical & Hospital",
+    "location": "Boston, Massachusetts, USA",
+    "logo_url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=400",
+    "description": "Primary clinical trial partner for multi-bed ICU contactless optical telemetry, continuous neonatal hemodynamic monitoring, and acute sepsis early warning deployment.",
+    "joint_focus": [
+      "Zero-Contact ICU Hemodynamics",
+      "Continuous Pediatric Monitoring",
+      "Infectious Disease Isolation Telemetry",
+      "Clinical Protocol Adjudication"
+    ],
+    "key_contacts": [
+      "Dr. Sarah Al-Mansoor, MD (ICU Director)",
+      "Prof. Robert Lang, MD (Pulmonary Medicine)"
+    ],
+    "active_trials": [
+      "Contactless ICU Vital Sign Extraction Trial (NCT05128911)",
+      "Pediatric Respiratory Distress Early Warning Pilot"
+    ],
+    "website_url": "https://www.massgeneral.org",
+    "is_featured": 1,
+    "published": 1,
+    "order_index": 1
+  },
+  {
+    "id": "collab-2",
+    "name": "Johns Hopkins Medicine & Whiting School of Engineering",
+    "short_name": "Johns Hopkins University",
+    "category": "Academic Institution",
+    "location": "Baltimore, Maryland, USA",
+    "logo_url": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=400",
+    "description": "Pioneering collaborative research on explainable concept bottleneck architectures, physician alert fatigue mitigation, and human-in-the-loop clinical decision support.",
+    "joint_focus": [
+      "Explainable AI (XAI) for Critical Care",
+      "Concept Bottleneck Architectures",
+      "Physician Trust & Recourse Audits",
+      "Bedside Diagnostic Usability"
+    ],
+    "key_contacts": [
+      "Dr. Marcus Thorne, PhD (Assistant Professor)",
+      "Prof. Elena Rostova, MD, PhD"
+    ],
+    "active_trials": [
+      "Multi-Hospital Clinician Diagnostic Usability Benchmark",
+      "Counterfactual Explanations in Emergency Triage"
+    ],
+    "website_url": "https://www.hopkinsmedicine.org",
+    "is_featured": 1,
+    "published": 1,
+    "order_index": 2
+  },
+  {
+    "id": "collab-3",
+    "name": "Stanford Health Care - Division of Cardiovascular Health",
+    "short_name": "Stanford Health Care",
+    "category": "Clinical & Hospital",
+    "location": "Stanford, California, USA",
+    "logo_url": "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=400",
+    "description": "Multi-center clinical site evaluating wearable photoplethysmography and bio-impedance sensor fusion for ambulatory continuous blood pressure tracking and arrhythmia prediction.",
+    "joint_focus": [
+      "Cuffless Continuous Arterial Pressure",
+      "Ambulatory Arrhythmia Telemetry",
+      "Photoplethysmography Sensor Fusion",
+      "AAMI Protocol Validation"
+    ],
+    "key_contacts": [
+      "Prof. David K. Patel, MD, PhD (Adjunct Investigator)",
+      "Dr. Michael Chen, MD, FACC"
+    ],
+    "active_trials": [
+      "CardioState Ambulatory Hypertension Cohort (1,500 Patients)",
+      "Beat-to-Beat PTT Hemodynamic Validation"
+    ],
+    "website_url": "https://stanfordhealthcare.org",
+    "is_featured": 1,
+    "published": 1,
+    "order_index": 3
+  },
+  {
+    "id": "collab-4",
+    "name": "MIT Institute for Medical Engineering and Science (IMES)",
+    "short_name": "MIT IMES & CSAIL",
+    "category": "Academic Institution",
+    "location": "Cambridge, Massachusetts, USA",
+    "logo_url": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=400",
+    "description": "Joint theoretical engineering on foundational physiological representation learning, high-dimensional wavelet manifolds, and edge-deployable temporal transformer models.",
+    "joint_focus": [
+      "Self-Supervised Biosignal Foundation Models",
+      "CardioState-10M Pre-training Benchmark",
+      "Wavelet Signal Decomposition",
+      "Edge Microprocessor Optimization"
+    ],
+    "key_contacts": [
+      "Prof. Alex Vance, PhD",
+      "Dr. Clara Zhang, PhD (Postdoctoral Affiliate)"
+    ],
+    "active_trials": [
+      "10-Million-Hour Ambience Waveform Benchmark",
+      "Cross-Modal ECG-to-PPG Synthetic Reconstruction"
+    ],
+    "website_url": "https://imes.mit.edu",
+    "is_featured": 1,
+    "published": 1,
+    "order_index": 4
+  },
+  {
+    "id": "collab-5",
+    "name": "Philips Healthcare - Clinical Informatics Research",
+    "short_name": "Philips Healthcare",
+    "category": "Industry & Technology",
+    "location": "Cambridge, MA & Eindhoven, Netherlands",
+    "logo_url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=400",
+    "description": "Industry co-development of HL7 FHIR real-time physiological telemetry interfaces and next-generation bedside patient monitor micro-services.",
+    "joint_focus": [
+      "HL7 FHIR Interoperability Protocols",
+      "Patient Monitor Hardware Integration"
+    ],
+    "key_contacts": [
+      "Erik Van Der Linden (VP Research)",
+      "Dr. Anika Mehta, PhD"
+    ],
+    "active_trials": [
+      "Bedside Smart Telemetry Protocol Trial",
+      "Real-Time Interoperability Showcase"
+    ],
+    "website_url": "https://www.philips.com/healthcare",
+    "is_featured": 1,
+    "published": 1,
+    "order_index": 5
+  }
+]

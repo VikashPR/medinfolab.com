@@ -1,0 +1,110 @@
+[
+  {
+    "id": "rppg",
+    "title": "Contactless Physiological Sensing",
+    "subtitle": "Video-based rPPG & Thermal Imaging",
+    "description": "Pioneering optical camera-based algorithms that extract pulse, respiration, and microvascular hemodynamics without physical skin contact, ideal for neonatal ICU, infectious disease isolation, and telemedicine.",
+    "technologies": [
+      "rPPG Signal Extraction",
+      "Spatial-Temporal Attention",
+      "Sub-pixel Motion Magnification",
+      "Ambient Noise Filtering"
+    ],
+    "metrics": [
+      {
+        "label": "Pulse Accuracy",
+        "value": "\u00b11.4 BPM"
+      },
+      {
+        "label": "Sampling Rate",
+        "value": "30 - 120 FPS"
+      }
+    ],
+    "icon": "Activity",
+    "grant_number": "NIH R01-EB032104",
+    "status": "Active Clinical Trials",
+    "published": 1,
+    "order_index": 0
+  },
+  {
+    "id": "multimodal",
+    "title": "Biomedical Signal Processing",
+    "subtitle": "Multimodal ECG, PPG & Hemodynamics",
+    "description": "Developing rigorous mathematical pipelines for cuffless continuous blood pressure estimation, pulse transit time (PTT) derivation, and adaptive artifact cancellation in ambulatory monitors.",
+    "technologies": [
+      "Wavelet Decomposition",
+      "Kalman Filtering",
+      "Beat-to-Beat PTT Tracking",
+      "Motion Artifact Suppression"
+    ],
+    "metrics": [
+      {
+        "label": "BP Deviation",
+        "value": "<4 mmHg"
+      },
+      {
+        "label": "Signal Quality Index",
+        "value": "98.2%"
+      }
+    ],
+    "icon": "Cpu",
+    "grant_number": "NSF IIS-2104921",
+    "status": "Bench & Pilot Validation",
+    "published": 1,
+    "order_index": 1
+  },
+  {
+    "id": "clinical-ai",
+    "title": "Translational Clinical AI",
+    "subtitle": "Bedside Decision Support & Foundation Models",
+    "description": "Translating deep neural networks and self-supervised biomedical foundation models into actionable, clinically verified decision support tools that integrate seamlessly with hospital Electronic Health Records (EHR).",
+    "technologies": [
+      "Self-Supervised Learning",
+      "EHR FHIR Interoperability",
+      "Model Explainability (XAI)",
+      "Prospective Trials"
+    ],
+    "metrics": [
+      {
+        "label": "Inference Latency",
+        "value": "<16 ms"
+      },
+      {
+        "label": "Clinical Partners",
+        "value": "5+ Hospital Systems"
+      }
+    ],
+    "icon": "Network",
+    "grant_number": "NIH R21-LM014298",
+    "status": "Multi-Center Prospective Study",
+    "published": 1,
+    "order_index": 2
+  },
+  {
+    "id": "interventions",
+    "title": "Digital Health Interventions",
+    "subtitle": "Continuous Patient Monitoring & Decentralized Care",
+    "description": "Designing closed-loop digital therapeutic interventions and passive bio-telemetry pipelines that allow clinicians to detect acute hemodynamic decompensation hours before overt clinical deterioration.",
+    "technologies": [
+      "Edge Computing",
+      "HIPAA/GDPR Compliant Streams",
+      "Early Warning Scores (NEWS2/qSOFA)",
+      "Wearable IoT"
+    ],
+    "metrics": [
+      {
+        "label": "Early Detection",
+        "value": "~4.6 hrs"
+      },
+      {
+        "label": "Monitored Cohort",
+        "value": "15,000+ patients"
+      }
+    ],
+    "icon": "HeartPulse",
+    "grant_number": "Clinical Translational Award 2023",
+    "status": "Active Deployment",
+    "published": 1,
+    "order_index": 3
+  }
+]

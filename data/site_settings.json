@@ -1,0 +1,19 @@
+[
+  {
+    "id": "default",
+    "lab_name": "MINDH Laboratory",
+    "tagline": "Medical Informatics and Digital Health Laboratory",
+    "contact_email": "contact@mindh-lab.org",
+    "contact_phone": "+1 (415) 555-0198",
+    "address": "Division of Medical Informatics, Health Sciences Center, University Medical Campus",
+    "room_location": "Health Sciences Tower, Suite 740, Clinical Simulation Wing",
+    "visiting_hours": "Monday - Friday: 09:00 - 17:00 (By Appointment)",
+    "social_links": {
+      "linkedin": "https://www.linkedin.com/company/medical-informatics-and-digital-health-lab/",
+      "twitter": "https://twitter.com/MINDHLab",
+      "github": "https://github.com/mindh-lab",
+      "scholar": "https://scholar.google.com/citations?user=mindh-lab",
+      "youtube": "https://youtube.com/@mindh-lab"
+    }
+  }
+]
