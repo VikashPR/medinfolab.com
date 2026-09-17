@@ -1,0 +1,8 @@
+{
+  "name": "flask_to_node_js_0_edited_MINDH Lab",
+  "description": "Medical Informatics and Digital Health Laboratory (MINDH) — Translational clinical informatics, physiological monitoring, and clinical AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

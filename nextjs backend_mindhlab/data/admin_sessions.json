@@ -1,0 +1,10 @@
+[
+  {
+    "token": "8d1c8a6b9faad66b8e8aeeaade6402a29480c2c14b8e9f7e1b84032d7cfbba39",
+    "userId": "admin-1",
+    "username": "admin",
+    "role": "Super Admin",
+    "createdAt": 1789530988584,
+    "expiresAt": 1789617388584
+  }
+]
