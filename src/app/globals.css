@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-maroon-50: #fcf1f3;
+  --color-maroon-100: #f8dfe4;
+  --color-maroon-700: #8e1732;
+  --color-maroon-800: #74132b;
+  --color-maroon-900: #5b1023;
+}
+
+:root { color-scheme: light; }
+html { scroll-behavior: smooth; }
+body { background: #fbfaf8; color: #0f172a; }
+::selection { background: #f8dfe4; color: #5b1023; }
+
+@keyframes hero-progress {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+
+.hero-progress {
+  animation: hero-progress 7s linear forwards;
+}
+
+@layer utilities {
+  .container-wide { width: 100%; max-width: 80rem; margin-inline: auto; padding-inline: 1.25rem; }
+  .focus-ring:focus-visible { outline: 2px solid #8e1732; outline-offset: 2px; }
+}
+
+@media (min-width: 640px) {
+  .container-wide { padding-inline: 2rem; }
+}
+
+@media (min-width: 1024px) {
+  .container-wide { padding-inline: 2.5rem; }
+}

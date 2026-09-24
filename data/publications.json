@@ -1,0 +1,24 @@
+[
+  {
+    "id": "publication-signal-quality-2024",
+    "slug": "signal-quality-clinical-settings",
+    "title": "Assessing physiological signal quality in clinical settings",
+    "authors": ["Research Group"],
+    "venue": "Journal of Medical Informatics",
+    "year": 2024,
+    "type": "Journal article",
+    "abstract": "A methods study on evaluating physiological signal quality across changing clinical environments.",
+    "url": "#"
+  },
+  {
+    "id": "publication-workflow-data-2023",
+    "slug": "clinical-workflows-health-data",
+    "title": "Health data and the design of clinical workflows",
+    "authors": ["Research Group"],
+    "venue": "Digital Health Methods",
+    "year": 2023,
+    "type": "Conference paper",
+    "abstract": "A study of how data tools can support clinical work without adding unnecessary complexity.",
+    "url": "#"
+  }
+]

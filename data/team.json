@@ -1,0 +1,23 @@
+[
+  {
+    "id": "team-lead",
+    "name": "Research lead",
+    "role": "Principal investigator",
+    "summary": "Leads the laboratory's research direction and collaborations.",
+    "initials": "RL"
+  },
+  {
+    "id": "team-methods",
+    "name": "Methods group",
+    "role": "Research scientists",
+    "summary": "Develops methods for working with clinical data and physiological signals.",
+    "initials": "MG"
+  },
+  {
+    "id": "team-systems",
+    "name": "Systems group",
+    "role": "Engineers and designers",
+    "summary": "Builds research tools that can work in real clinical environments.",
+    "initials": "SG"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "facility-signal-lab",
+    "slug": "signal-laboratory",
+    "name": "Signal laboratory",
+    "summary": "A workspace for collecting, reviewing, and analyzing physiological signals.",
+    "category": "Research space",
+    "availability": "By arrangement"
+  },
+  {
+    "id": "facility-computing",
+    "slug": "computing-workspace",
+    "name": "Computing workspace",
+    "summary": "A shared environment for data preparation, analysis, and reproducible research workflows.",
+    "category": "Research space",
+    "availability": "By arrangement"
+  }
+]

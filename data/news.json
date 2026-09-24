@@ -1,0 +1,20 @@
+[
+  {
+    "id": "news-lab-update-2024-01",
+    "slug": "laboratory-update",
+    "title": "Laboratory update",
+    "summary": "An update on current research activity and upcoming work.",
+    "date": "2024-09-12",
+    "category": "Laboratory news",
+    "url": "#"
+  },
+  {
+    "id": "news-methods-seminar-2024-02",
+    "slug": "methods-seminar",
+    "title": "Methods seminar",
+    "summary": "The group hosted a discussion on practical methods for working with health data.",
+    "date": "2024-06-18",
+    "category": "Seminar",
+    "url": "#"
+  }
+]

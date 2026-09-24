@@ -1,0 +1,26 @@
+[
+  {
+    "id": "research-clinical-information",
+    "slug": "clinical-information",
+    "title": "Clinical information",
+    "summary": "Methods for organizing and interpreting information across clinical workflows.",
+    "description": "This area examines how health information is represented, shared, and used by people making decisions in care settings.",
+    "status": "Active"
+  },
+  {
+    "id": "research-physiological-signals",
+    "slug": "physiological-signals",
+    "title": "Physiological signals",
+    "summary": "Analysis of signals collected from clinical and everyday health devices.",
+    "description": "This area studies signal quality, context, and interpretation across different sensing environments.",
+    "status": "Active"
+  },
+  {
+    "id": "research-digital-systems",
+    "slug": "digital-systems",
+    "title": "Digital systems",
+    "summary": "Tools and interfaces designed around real clinical and research practice.",
+    "description": "This area focuses on building systems that are understandable, maintainable, and useful to the people who rely on them.",
+    "status": "Active"
+  }
+]
