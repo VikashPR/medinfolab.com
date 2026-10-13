@@ -3,6 +3,7 @@ import { DM_Sans, Newsreader } from "next/font/google";
 import "./globals.css";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { SiteSettingsProvider } from "@/context/SiteSettingsContext";
 
 const sans = DM_Sans({ subsets: ["latin"], variable: "--font-sans" });
 const serif = Newsreader({ subsets: ["latin"], variable: "--font-serif" });
@@ -28,9 +29,11 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en">
       <body className={`${sans.variable} ${serif.variable} font-sans`}>
-        <SiteHeader />
-        <main>{children}</main>
-        <SiteFooter />
+        <SiteSettingsProvider>
+          <SiteHeader />
+          <main>{children}</main>
+          <SiteFooter />
+        </SiteSettingsProvider>
       </body>
     </html>
   );

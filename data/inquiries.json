@@ -1,0 +1,35 @@
+[
+  {
+    "id": "inq-1791457626859-t5vhp",
+    "name": "Dr. Test Visitor",
+    "email": "visitor@hospital.org",
+    "affiliation": "General Hospital",
+    "role": "Clinician",
+    "interestType": "Clinical Research Trial",
+    "message": "Testing integration between landing page and admin portal.",
+    "createdAt": "2026-10-08T11:07:06.859Z",
+    "status": "New"
+  },
+  {
+    "id": "inq-1791457584993-8xvii",
+    "name": "Dr. Test Visitor",
+    "email": "visitor@hospital.org",
+    "affiliation": "General Hospital",
+    "role": "Clinician",
+    "interestType": "Clinical Research Trial",
+    "message": "Testing integration between landing page and admin portal.",
+    "createdAt": "2026-10-08T11:06:24.993Z",
+    "status": "New"
+  },
+  {
+    "id": "inq-1791029329819",
+    "name": "Test Doctor",
+    "email": "doctor@hospital.org",
+    "affiliation": "Metropolitan Hospital",
+    "role": "Clinician",
+    "interestType": "Clinical Trial",
+    "message": "Interested in validating the contactless rPPG monitor.",
+    "createdAt": "2026-10-03T12:08:49.819Z",
+    "status": "New"
+  }
+]

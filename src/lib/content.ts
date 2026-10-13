@@ -6,8 +6,8 @@ export type ResearchArea = {
   title: string;
   summary: string;
   description: string;
-  status: string;
   order?: number;
+  imageUrl?: string;
 };
 
 export type Publication = {
@@ -31,6 +31,7 @@ export type Facility = {
   category: string;
   availability: string;
   order?: number;
+  imageUrl?: string;
 };
 
 export type NewsItem = {
@@ -42,6 +43,7 @@ export type NewsItem = {
   category: string;
   url: string;
   order?: number;
+  imageUrl?: string;
 };
 
 export type TeamMember = {
@@ -51,32 +53,43 @@ export type TeamMember = {
   summary: string;
   initials: string;
   order?: number;
+  avatarUrl?: string;
+  category?: string;
+  subType?: string;
+  credentials?: string;
+  bio?: string;
+  detailedBio?: string;
+  labRoleDetail?: string;
+  focus?: string[];
+  skills?: string[];
+  contributions?: string[];
+  social?: any;
 };
 
-export const navigation = [
-  { label: "Research", href: "/research" },
-  { label: "Publications", href: "/publications" },
-  { label: "Facilities", href: "/facilities" },
-  { label: "News", href: "/news" },
-  { label: "Contact", href: "/contact" },
-];
+export { navigation } from "./navigation";
 
 export async function getResearchAreas(): Promise<ResearchArea[]> {
-  return getCollection<ResearchArea>("research");
+  const fromFirestore = await getCollection<ResearchArea>("research");
+  return fromFirestore || [];
 }
 
 export async function getPublications(): Promise<Publication[]> {
-  return getCollection<Publication>("publications");
+  const fromFirestore = await getCollection<Publication>("publications");
+  return fromFirestore || [];
 }
 
 export async function getFacilities(): Promise<Facility[]> {
-  return getCollection<Facility>("facilities");
+  const fromFirestore = await getCollection<Facility>("facilities");
+  return fromFirestore || [];
 }
 
 export async function getNewsItems(): Promise<NewsItem[]> {
-  return getCollection<NewsItem>("news");
+  const fromFirestore = await getCollection<NewsItem>("news");
+  return fromFirestore || [];
 }
 
 export async function getTeamMembers(): Promise<TeamMember[]> {
-  return getCollection<TeamMember>("team");
+  const fromFirestore = await getCollection<TeamMember>("team");
+  return fromFirestore || [];
 }
+

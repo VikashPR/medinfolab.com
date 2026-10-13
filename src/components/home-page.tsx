@@ -18,24 +18,35 @@ export async function HomePage() {
     getTeamMembers(),
   ]);
 
+
+  let heroSlides = newsItems.slice(0, 3).map(n => ({
+    image: n.imageUrl || "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1800&q=85",
+    label: n.category || "Laboratory news",
+    title: n.title,
+    text: n.summary,
+    href: n.url || `/news`,
+    action: "Read the latest"
+  }));
+
+  if (heroSlides.length === 0) {
+    heroSlides = [
+      {
+        image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1800&q=85",
+        label: "Research focus",
+        title: "Understanding health through data and context.",
+        text: "Our research connects clinical questions with methods that can be examined, tested, and improved.",
+        href: "/research",
+        action: "Explore research",
+      }
+    ];
+  }
+
   return (
     <>
-      <section className="border-b border-slate-200 bg-white">
-        <div className="container-wide flex min-h-12 items-center justify-between gap-4 py-3 text-sm">
-          <p className="text-slate-700">
-            <span className="mr-2 font-bold text-maroon-800">Announcement</span> The laboratory is accepting research inquiries for the coming academic year.
-          </p>
-          <Link
-            href="/contact"
-            className="focus-ring hidden shrink-0 items-center gap-2 text-xs font-bold uppercase tracking-wider text-maroon-800 sm:inline-flex"
-          >
-            Get in touch <ArrowRight size={14} />
-          </Link>
-        </div>
-      </section>
+      
 
       <section className="container-wide py-6 sm:py-10">
-        <HeroCarousel />
+        <HeroCarousel slides={heroSlides} />
       </section>
 
       {/* Research Section */}
@@ -68,14 +79,21 @@ export async function HomePage() {
                   <span className="text-xs font-bold tracking-[0.2em] text-maroon-700">
                     0{index + 1}
                   </span>
-                  <span>
-                    <span className="block text-2xl font-bold tracking-tight text-slate-950 group-hover:text-maroon-800">
-                      {area.title}
+                  <span className="flex flex-col sm:flex-row gap-6 items-start">
+                      {area.imageUrl && (
+                        <span className="block w-full sm:w-48 h-32 shrink-0 rounded-xl overflow-hidden bg-slate-100 relative">
+                          <img src={area.imageUrl} alt={area.title} className="w-full h-full object-cover" />
+                        </span>
+                      )}
+                      <span>
+                        <span className="block text-2xl font-bold tracking-tight text-slate-950 group-hover:text-maroon-800">
+                          {area.title}
+                        </span>
+                        <span className="mt-2 block max-w-xl text-sm leading-6 text-slate-600">
+                          {area.summary}
+                        </span>
+                      </span>
                     </span>
-                    <span className="mt-2 block max-w-xl text-sm leading-6 text-slate-600">
-                      {area.summary}
-                    </span>
-                  </span>
                   <ChevronRight
                     size={18}
                     className="hidden text-maroon-700 transition-transform group-hover:translate-x-1 sm:mt-1 sm:block"
@@ -151,12 +169,19 @@ export async function HomePage() {
               <p className="text-sm text-slate-500 italic">No facilities added yet.</p>
             ) : (
               facilities.map((facility) => (
-                <article key={facility.id} className="rounded-2xl border border-maroon-100 bg-white p-6 shadow-sm">
-                  <p className="text-xs font-bold uppercase tracking-wider text-maroon-700">
-                    {facility.category}
-                  </p>
-                  <h3 className="mt-10 text-xl font-bold text-slate-950">{facility.name}</h3>
-                  <p className="mt-3 text-sm leading-6 text-slate-600">{facility.summary}</p>
+                <article key={facility.id} className="overflow-hidden rounded-2xl border border-maroon-100 bg-white shadow-sm flex flex-col">
+                  {facility.imageUrl && (
+                    <div className="h-40 w-full overflow-hidden bg-slate-100 relative">
+                      <img src={facility.imageUrl} alt={facility.name} className="w-full h-full object-cover" />
+                    </div>
+                  )}
+                  <div className="p-6">
+                    <p className="text-xs font-bold uppercase tracking-wider text-maroon-700">
+                      {facility.category}
+                    </p>
+                    <h3 className="mt-6 text-xl font-bold text-slate-950">{facility.name}</h3>
+                    <p className="mt-3 text-sm leading-6 text-slate-600 line-clamp-3">{facility.summary}</p>
+                  </div>
                 </article>
               ))
             )}
@@ -187,56 +212,61 @@ export async function HomePage() {
             <p className="text-sm text-slate-500 italic">No news published yet.</p>
           ) : (
             newsItems.map((item) => (
-              <article key={item.id} className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
-                <div className="flex items-center justify-between text-xs font-bold uppercase tracking-wider text-maroon-700">
-                  <span>{item.category}</span>
-                  <time dateTime={item.date}>{item.date}</time>
+              <article key={item.id} className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm flex flex-col">
+                {item.imageUrl && (
+                  <div className="h-48 w-full overflow-hidden bg-slate-100 relative">
+                    <img src={item.imageUrl} alt={item.title} className="w-full h-full object-cover" />
+                  </div>
+                )}
+                <div className="p-7">
+                  <div className="flex items-center justify-between text-xs font-bold uppercase tracking-wider text-maroon-700">
+                    <span>{item.category}</span>
+                    <time dateTime={item.date}>{item.date}</time>
+                  </div>
+                  <h3 className="mt-8 text-xl font-bold text-slate-950">{item.title}</h3>
+                  <p className="mt-3 text-sm leading-7 text-slate-600 line-clamp-3">{item.summary}</p>
                 </div>
-                <h3 className="mt-12 text-xl font-bold text-slate-950">{item.title}</h3>
-                <p className="mt-3 text-sm leading-7 text-slate-600">{item.summary}</p>
               </article>
             ))
           )}
         </div>
       </section>
 
+      
       {/* Team Section */}
-      <section id="group" className="container-wide py-20 sm:py-24">
-        <div className="grid gap-12 lg:grid-cols-[.8fr_1.2fr] lg:items-end">
-          <div>
-            <p className="text-xs font-bold uppercase tracking-[0.2em] text-maroon-700">
-              Research group
-            </p>
+      <section className="border-y border-slate-200 bg-slate-50 py-20 sm:py-24">
+        <div className="container-wide">
+          <div className="flex flex-col items-center text-center">
+            <p className="text-xs font-bold uppercase tracking-[0.2em] text-maroon-700">The People</p>
             <h2 className="mt-5 text-3xl font-extrabold tracking-tight text-slate-950 sm:text-4xl">
-              People who make the work possible.
+              Meet our team
             </h2>
+            <Link href="/team" className="focus-ring mt-7 inline-flex items-center gap-2 rounded-xl bg-white border border-slate-200 px-5 py-3 text-sm font-bold text-slate-900 hover:bg-slate-50 shadow-sm">
+              View all members <Users size={16} />
+            </Link>
           </div>
-          <p className="max-w-2xl text-base leading-7 text-slate-600">
-            The group brings together clinical, computational, and design perspectives around shared research questions.
-          </p>
-        </div>
-        <div className="mt-10 grid gap-4 md:grid-cols-3">
-          {teamMembers.length === 0 ? (
-            <p className="text-sm text-slate-500 italic">No team members listed yet.</p>
-          ) : (
-            teamMembers.map((member) => (
-              <article key={member.id} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-                <div className="grid size-12 place-items-center rounded-full bg-maroon-100 text-sm font-bold text-maroon-800">
-                  {member.initials}
+          <div className="mt-16 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+            {teamMembers.length === 0 ? (
+              <p className="col-span-full text-center text-sm text-slate-500 italic">No team members added yet.</p>
+            ) : (
+              teamMembers.slice(0, 4).map((member) => (
+                <div key={member.id} className="flex flex-col items-center text-center p-6 bg-white rounded-2xl border border-slate-200 shadow-sm">
+                  <div className="h-24 w-24 overflow-hidden rounded-full bg-slate-100 border-4 border-white shadow-sm mb-4">
+                    {member.avatarUrl ? (
+                      <img src={member.avatarUrl} alt={member.name} className="h-full w-full object-cover" />
+                    ) : (
+                      <div className="flex h-full w-full items-center justify-center bg-slate-100 text-xl font-bold text-slate-400">
+                        {member.initials}
+                      </div>
+                    )}
+                  </div>
+                  <h3 className="font-bold text-slate-900">{member.name}</h3>
+                  <p className="text-xs text-slate-500 mt-1">{member.role}</p>
                 </div>
-                <h3 className="mt-8 text-xl font-bold text-slate-950">{member.name}</h3>
-                <p className="mt-1 text-sm font-semibold text-maroon-700">{member.role}</p>
-                <p className="mt-4 text-sm leading-6 text-slate-600">{member.summary}</p>
-              </article>
-            ))
-          )}
+              ))
+            )}
+          </div>
         </div>
-        <Link
-          href="/contact"
-          className="focus-ring mt-8 inline-flex items-center gap-2 text-sm font-bold text-maroon-800"
-        >
-          Work with the group <Users size={16} />
-        </Link>
       </section>
 
       <section className="container-wide pb-24 sm:pb-28">

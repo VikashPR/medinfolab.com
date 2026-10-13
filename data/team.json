@@ -1,23 +1,630 @@
 [
   {
-    "id": "team-lead",
-    "name": "Research lead",
-    "role": "Principal investigator",
-    "summary": "Leads the laboratory's research direction and collaborations.",
-    "initials": "RL"
+    "id": "member-1",
+    "name": "Prof. David K. Patel, MD, PhD",
+    "role": "Principal Investigator & Professor",
+    "category": "Professor",
+    "credentials": "MD (Cardiology), PhD (Biomedical Engineering, MIT)",
+    "bio": "Professor of Medical Informatics leading translational clinical AI, bedside telemetry foundation models, and contactless physiological monitoring.",
+    "detailedBio": "Prof. David K. Patel is the Director of the Medical Informatics and Digital Health (MINDH) Laboratory. With dual board certification in Cardiovascular Medicine and a PhD in Biomedical Engineering, he directs multi-center clinical trials bridging raw bedside sensor streams with clinician-facing decision support systems. He previously held research appointments at Harvard Medical School and has authored over 95 peer-reviewed papers in Nature Digital Medicine, IEEE TBME, and Lancet Digital Health.",
+    "labRoleDetail": "Oversees overall laboratory research strategy, multi-center hospital deployments, NIH R01 grant management, and clinical mentorship.",
+    "focus": [
+      "Translational Informatics",
+      "Contactless Physiological Sensing",
+      "Bedside Foundation Models",
+      "Clinical Trial Leadership"
+    ],
+    "skills": [
+      "Clinical Trial Design",
+      "Physiological Signal Processing",
+      "Translational AI Governance",
+      "Multimodal Biosensors",
+      "Hemodynamic Modeling"
+    ],
+    "contributions": [
+      "Pioneered sub-1.5 BPM video-based contactless rPPG pulse rate estimation across 120 intensive care beds.",
+      "Architected edge-AI hemodynamic collapse early warning scoring system deployed across 3 regional hospitals.",
+      "Recipient of 3 NIH R01 and R21 translational medical instrumentation awards."
+    ],
+    "projects": [
+      {
+        "title": "Contactless Multi-Spectral ICU Vital Sensing (NIH R01)",
+        "status": "Active",
+        "description": "Multi-center clinical trial deploying 4K chromatic sensors for zero-contact pediatric and ICU patient telemetry."
+      },
+      {
+        "title": "Continuous Cuffless Arterial Pressure Monitoring",
+        "status": "Active",
+        "description": "Sensor fusion of optical photoplethysmography and bio-impedance for ambulatory hypertension tracking."
+      },
+      {
+        "title": "Self-Supervised ECG Foundation Model (CardioState-10M)",
+        "status": "Completed",
+        "description": "Trained on 10 million hours of continuous telemetry to predict arrhythmia onset 4 hours in advance."
+      }
+    ],
+    "publications": [
+      {
+        "title": "Prospective Multi-Center Trial of Contactless Video Photoplethysmography in Critically Ill Adults",
+        "year": 2024,
+        "journalOrConference": "Nature Digital Medicine",
+        "doi": "10.1038/s41746-024-01120-x",
+        "link": "https://nature.com"
+      },
+      {
+        "title": "Foundations of Bedside Computational Physiology: Self-Supervised Waveform Representation",
+        "year": 2023,
+        "journalOrConference": "IEEE Trans. Biomedical Engineering",
+        "doi": "10.1109/TBME.2023.3289012"
+      },
+      {
+        "title": "Real-Time Hemodynamic Decompensation Warning Using Multimodal Deep Attention",
+        "year": 2022,
+        "journalOrConference": "Lancet Digital Health",
+        "doi": "10.1016/S2589-7500(22)00145-8"
+      }
+    ],
+    "awards": [
+      {
+        "title": "NIH Director's Transformative Research Award",
+        "year": "2023",
+        "organization": "National Institutes of Health"
+      },
+      {
+        "title": "IEEE EMBC Outstanding Clinical Engineering Paper",
+        "year": "2021",
+        "organization": "IEEE Engineering in Medicine & Biology"
+      }
+    ],
+    "avatarUrl": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=600",
+    "email": "d.patel@mindh-lab.org",
+    "scholarUrl": "https://scholar.google.com",
+    "orcidUrl": "https://orcid.org/0000-0002-1825-0097",
+    "researchGateUrl": "https://researchgate.net",
+    "websiteUrl": "https://mindh-lab.org/david-patel",
+    "linkedinUrl": "https://www.linkedin.com/company/medical-informatics-and-digital-health-lab/",
+    "twitterUrl": "https://twitter.com",
+    "showEmail": true,
+    "showSocialLinks": true,
+    "showPublications": true,
+    "showProjects": true,
+    "isPublic": true,
+    "orderIndex": 1
   },
   {
-    "id": "team-methods",
-    "name": "Methods group",
-    "role": "Research scientists",
-    "summary": "Develops methods for working with clinical data and physiological signals.",
-    "initials": "MG"
+    "id": "member-2",
+    "name": "Dr. Elena Vance, PhD",
+    "role": "Senior Postdoctoral Fellow & Vision Lead",
+    "category": "Post Doc",
+    "credentials": "PhD in Computer Science (Computer Vision, Stanford)",
+    "bio": "Specializes in video photoplethysmography, spatial-temporal graph networks, and illumination invariance in surgical and intensive care environments.",
+    "detailedBio": "Dr. Vance is a Senior Postdoctoral Fellow leading the Optical Sensing and Computer Vision core at MINDH Lab. Her research centers on extracting micro-chromatic skin color fluctuations caused by sub-surface capillary blood flow using consumer and industrial video streams. Prior to joining MINDH, she completed a postdoctoral fellowship at the Stanford AI Lab, focusing on robust video processing under erratic motion and variable illumination.",
+    "labRoleDetail": "Directs computer vision algorithm development, camera rig calibration, and benchmark dataset curation.",
+    "focus": [
+      "rPPG Extraction",
+      "Computer Vision in Healthcare",
+      "Microcirculation Imaging",
+      "Optical Physics"
+    ],
+    "skills": [
+      "PyTorch / JAX",
+      "OpenCV",
+      "Chrominance Physics Models",
+      "Optical Flow Estimation",
+      "Real-Time C++ Video Pipelines"
+    ],
+    "contributions": [
+      "Created the ChromPhys benchmark containing 500+ hours of synchronized ground-truth multi-wavelength clinical video.",
+      "Designed motion-compensated face and palm tracker maintaining signal-to-noise ratio during pediatric agitation.",
+      "Holder of 2 US patents on contactless vital sign extraction under non-stationary lighting."
+    ],
+    "projects": [
+      {
+        "title": "Deep Chromatic Diffusion for Contactless SpO2",
+        "status": "Active",
+        "description": "Multi-wavelength reflectance estimation overcoming skin pigmentation bias in contactless pulse oximetry."
+      },
+      {
+        "title": "Microcirculation Perfusion Index Video Mapping",
+        "status": "Completed",
+        "description": "High-speed 120fps mapping of localized peripheral perfusion changes during induced septic shock models."
+      }
+    ],
+    "publications": [
+      {
+        "title": "Illumination-Invariant Neural Photoplethysmography with Spatio-Temporal Attention",
+        "year": 2024,
+        "journalOrConference": "IEEE CVPR (Healthcare Vision)",
+        "doi": "10.1109/CVPR.2024.08912"
+      },
+      {
+        "title": "Mitigating Pigmentation Bias in Non-Contact Oxygen Saturation Estimation",
+        "year": 2023,
+        "journalOrConference": "Nature Digital Medicine",
+        "doi": "10.1038/s41746-023-00914-1"
+      }
+    ],
+    "awards": [
+      {
+        "title": "MIT Technology Review 35 Under 35 Honoree",
+        "year": "2023",
+        "organization": "MIT Tech Review"
+      }
+    ],
+    "avatarUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=600",
+    "email": "e.vance@mindh-lab.org",
+    "scholarUrl": "https://scholar.google.com",
+    "orcidUrl": "https://orcid.org/0000-0001-9042-4521",
+    "linkedinUrl": "https://www.linkedin.com/company/medical-informatics-and-digital-health-lab/",
+    "twitterUrl": "https://twitter.com",
+    "showEmail": true,
+    "showSocialLinks": true,
+    "showPublications": true,
+    "showProjects": true,
+    "isPublic": true,
+    "orderIndex": 2
   },
   {
-    "id": "team-systems",
-    "name": "Systems group",
-    "role": "Engineers and designers",
-    "summary": "Builds research tools that can work in real clinical environments.",
-    "initials": "SG"
+    "id": "member-3",
+    "name": "Dr. Rohan Sharma, PhD",
+    "role": "Postdoctoral Research Fellow",
+    "category": "Post Doc",
+    "credentials": "PhD in Electrical & Biomedical Engineering (Georgia Tech)",
+    "bio": "Pioneers multimodal bio-impedance and optical sensor fusion algorithms for continuous ambulatory blood pressure estimation.",
+    "detailedBio": "Dr. Rohan Sharma joined MINDH following doctoral research on ultra-low-power biomedical micro-instrumentation. His work focuses on wearable sensor fusion—coupling high-frequency bio-impedance plethysmography with miniaturized reflective PPG to calculate continuous pulse wave transit time (PWTT) and pulse wave velocity (PWV) without an occlusive cuff.",
+    "labRoleDetail": "Leads wearable hardware prototyping, microcontroller firmware design, and benchtop artifact simulation.",
+    "focus": [
+      "Biomedical Signal Processing",
+      "Wearable Hemodynamics",
+      "Embedded Edge AI",
+      "Cuffless Blood Pressure"
+    ],
+    "skills": [
+      "Embedded C/C++",
+      "DSP & Wavelet Transforms",
+      "BLE Telemetry",
+      "Analog Front-End Design",
+      "Physiological Modeling"
+    ],
+    "contributions": [
+      "Developed sub-5mW wrist-worn bio-impedance acquisition board with continuous 500Hz sampling.",
+      "Reduced mean absolute error in diastolic blood pressure tracking by 42% on standard MIMIC-IV benchmark."
+    ],
+    "projects": [
+      {
+        "title": "Ambulatory 24h Cuffless BP Patch",
+        "status": "Active",
+        "description": "Clinical trial assessing 24-hour ambulatory blood pressure monitoring compared to A-line ground truth in CCU."
+      }
+    ],
+    "publications": [
+      {
+        "title": "Nonlinear Pulse Wave Transit Time Calibration for Ambulatory Blood Pressure",
+        "year": 2024,
+        "journalOrConference": "IEEE Trans. Biomedical Circuits & Systems",
+        "doi": "10.1109/TBCAS.2024.33120"
+      }
+    ],
+    "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=600",
+    "email": "r.sharma@mindh-lab.org",
+    "scholarUrl": "https://scholar.google.com",
+    "orcidUrl": "https://orcid.org/0000-0003-4512-9810",
+    "linkedinUrl": "https://www.linkedin.com/company/medical-informatics-and-digital-health-lab/",
+    "showEmail": true,
+    "showSocialLinks": true,
+    "showPublications": true,
+    "showProjects": true,
+    "isPublic": true,
+    "orderIndex": 3
+  },
+  {
+    "id": "member-4",
+    "name": "Kevin Zhao, MS",
+    "role": "Doctoral Candidate (Regular PhD)",
+    "category": "PhD",
+    "subType": "Regular",
+    "credentials": "PhD Candidate in Health Informatics & Computer Science",
+    "bio": "Developing self-supervised contrastive learning algorithms on high-frequency streaming ECG and vital sign telemetry for early shock warning.",
+    "detailedBio": "Kevin Zhao is a 4th-year regular PhD candidate co-advised by Prof. Patel and the Department of Computer Science. His dissertation investigates foundational representations of high-dimensional multi-lead electrophysiological time-series data, specifically self-supervised masking objectives for predicting acute hemodynamic decompensation.",
+    "labRoleDetail": "Maintains the lab's GPU cluster compute pipeline and leads transformer model development.",
+    "focus": [
+      "Foundation Models for ECG",
+      "Time-series Transformers",
+      "Clinical Decision Support",
+      "Sepsis Early Warning"
+    ],
+    "skills": [
+      "PyTorch",
+      "HuggingFace",
+      "Distributed Training (DDP/DeepSpeed)",
+      "EHR Data Mining",
+      "Survival Analysis"
+    ],
+    "contributions": [
+      "Open-sourced CardioTransformer, achieving state-of-the-art F1 score on PhysioNet 2021 CinC Challenge.",
+      "Demonstrated 3.2-hour median lead time for septic shock prediction using continuous waveform pre-training."
+    ],
+    "projects": [
+      {
+        "title": "CardioState: Continuous Latent Space Representation",
+        "status": "Active",
+        "description": "Multi-channel masked autoencoding on 12-lead ECG telemetry."
+      }
+    ],
+    "publications": [
+      {
+        "title": "Self-Supervised Contrastive Learning Across Heterogeneous Physiological Waveforms",
+        "year": 2023,
+        "journalOrConference": "NeurIPS Workshop on Machine Learning for Health (ML4H)",
+        "doi": "10.48550/arXiv.2310.12941"
+      }
+    ],
+    "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600",
+    "email": "k.zhao@mindh-lab.org",
+    "scholarUrl": "https://scholar.google.com",
+    "linkedinUrl": "https://www.linkedin.com/company/medical-informatics-and-digital-health-lab/",
+    "twitterUrl": "https://twitter.com",
+    "showEmail": true,
+    "showSocialLinks": true,
+    "showPublications": true,
+    "showProjects": true,
+    "isPublic": true,
+    "orderIndex": 4
+  },
+  {
+    "id": "member-8",
+    "name": "Aarav Iyer, M.Tech",
+    "role": "External PhD Scholar",
+    "category": "PhD",
+    "subType": "External",
+    "credentials": "External PhD Scholar (Philips Healthcare Clinical R&D)",
+    "bio": "Investigating concept bottleneck neural architectures and bedside alarm fatigue reduction algorithms under continuous telemetry.",
+    "detailedBio": "Aarav Iyer is an External PhD Scholar sponsored through the Philips Healthcare Clinical Informatics collaborative fellowship. His doctoral work focuses on bedside alarm triage, deploying explainable concept bottleneck models to filter false-positive arrhythmia alarms without compromising patient safety.",
+    "labRoleDetail": "Acts as industrial liaison for clinical telemetry datasets and ICU alarm log auditing.",
+    "focus": [
+      "Alarm Fatigue Mitigation",
+      "Concept Bottleneck Models",
+      "ICU Telemetry",
+      "Explainable AI"
+    ],
+    "skills": [
+      "PyTorch",
+      "Time-Series DSP",
+      "HL7 FHIR Interoperability",
+      "Clinical Alert Auditing"
+    ],
+    "contributions": [
+      "Developed real-time false alarm suppressor reducing non-actionable ICU telemetry alerts by 61% in validation wards."
+    ],
+    "projects": [
+      {
+        "title": "Intelligent Telemetry Alarm Filter",
+        "status": "Active",
+        "description": "Multi-hospital trial evaluating false ventricular tachycardia alarm reduction."
+      }
+    ],
+    "publications": [
+      {
+        "title": "Concept Bottleneck Filtering of Critical Care Telemetry Alarms",
+        "year": 2024,
+        "journalOrConference": "IEEE TBME",
+        "doi": "10.1109/TBME.2024.3389102"
+      }
+    ],
+    "avatarUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=600",
+    "email": "a.iyer@mindh-lab.org",
+    "linkedinUrl": "https://www.linkedin.com/company/medical-informatics-and-digital-health-lab/",
+    "showEmail": true,
+    "showSocialLinks": true,
+    "showPublications": true,
+    "showProjects": true,
+    "isPublic": true,
+    "orderIndex": 5
+  },
+  {
+    "id": "member-5",
+    "name": "Maya Lin, B.Tech",
+    "role": "M.Tech Research Scholar (Regular M.Tech)",
+    "category": "M.tech",
+    "subType": "Regular",
+    "credentials": "M.Tech Student in Biomedical Signal Processing",
+    "bio": "Investigating vocal acoustics and prosodic biomarkers for continuous cognitive workload and respiratory insufficiency assessment.",
+    "detailedBio": "Maya Lin is a regular M.Tech researcher conducting thesis experiments in the MINDH Prosodic & Affect Chamber. Her research investigates how acoustic micro-variations in formant frequencies, jitter, and shimmer correlate with early diaphragmatic fatigue and nocturnal dyspnea.",
+    "labRoleDetail": "Coordinates human participant testing in the acoustic chamber and oversees audio feature engineering.",
+    "focus": [
+      "Vocal Biomarkers",
+      "Respiratory Acoustics",
+      "Audio Signal Processing",
+      "Human Factors"
+    ],
+    "skills": [
+      "Librosa",
+      "Audio Feature Extraction",
+      "Acoustic Chamber Calibration",
+      "Statistical Testing"
+    ],
+    "contributions": [
+      "Constructed calibrated speech corpus with concurrent spirometry and plethysmography baselines across 60 volunteers."
+    ],
+    "projects": [
+      {
+        "title": "Vocal Prosody for Pulmonary Exacerbation Detection",
+        "status": "Active",
+        "description": "Mobile microphone acoustic analysis for outpatient chronic lung disease flare-up triage."
+      }
+    ],
+    "publications": [
+      {
+        "title": "Acoustic Glottal Features as Proxies for Minute Ventilation During Physical Exertion",
+        "year": 2024,
+        "journalOrConference": "Interspeech (Bio-Acoustics Session)",
+        "doi": "10.21437/Interspeech.2024-1182"
+      }
+    ],
+    "avatarUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=600",
+    "email": "m.lin@mindh-lab.org",
+    "linkedinUrl": "https://www.linkedin.com/company/medical-informatics-and-digital-health-lab/",
+    "showEmail": true,
+    "showSocialLinks": true,
+    "showPublications": true,
+    "showProjects": true,
+    "isPublic": true,
+    "orderIndex": 6
+  },
+  {
+    "id": "member-9",
+    "name": "Vikram Malhotra, B.Tech",
+    "role": "External M.Tech Scholar",
+    "category": "M.tech",
+    "subType": "External",
+    "credentials": "External M.Tech Scholar (GE HealthCare Collaborative)",
+    "bio": "Conducting thesis research on non-invasive pulse wave transit time (PWTT) estimation deployed on FPGA edge processors in clinical wards.",
+    "detailedBio": "Vikram Malhotra is an External M.Tech scholar sponsored through GE HealthCare Clinical Systems. His work centers on hardware-accelerated arterial stiffness calculation and beat-to-beat hemodynamic monitoring on low-power embedded FPGAs.",
+    "labRoleDetail": "Maintains hardware benchtop calibration rigs and edge FPGA toolchains.",
+    "focus": [
+      "Edge FPGA Acceleration",
+      "PWTT Estimation",
+      "Arterial Stiffness",
+      "Embedded Hardware"
+    ],
+    "skills": [
+      "Verilog / VHDL",
+      "Xilinx Vivado",
+      "Embedded C",
+      "Oscilloscope Calibration"
+    ],
+    "contributions": [
+      "Synthesized low-latency 2ms PWTT peak detection pipeline on Xilinx Zynq platform."
+    ],
+    "projects": [
+      {
+        "title": "FPGA-Accelerated Hemodynamic Telemetry",
+        "status": "Active",
+        "description": "Hardware coprocessor for real-time pulse wave velocity analysis."
+      }
+    ],
+    "avatarUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=600",
+    "email": "v.malhotra@mindh-lab.org",
+    "linkedinUrl": "https://www.linkedin.com/company/medical-informatics-and-digital-health-lab/",
+    "showEmail": true,
+    "showSocialLinks": true,
+    "showPublications": true,
+    "showProjects": true,
+    "isPublic": true,
+    "orderIndex": 7
+  },
+  {
+    "id": "member-10",
+    "name": "Ananya Sharma",
+    "role": "Undergraduate Research Intern",
+    "category": "Interns",
+    "credentials": "B.Tech Senior in Electronics & Communication",
+    "bio": "Focusing on wavelet decomposition pipelines for contactless heart rate variability (HRV) analysis from multi-spectral camera feeds.",
+    "detailedBio": "Ananya Sharma is an undergraduate research intern investigating optical rPPG spectral feature extraction and denoising algorithms for non-contact neonatal monitoring in the MINDH optical telemetry suite.",
+    "labRoleDetail": "Assists with camera sensor synchronization and wavelet filtering pipeline benchmarks.",
+    "focus": [
+      "Contactless rPPG",
+      "Wavelet Denoising",
+      "Neonatal Telemetry",
+      "HRV Analysis"
+    ],
+    "skills": [
+      "Python",
+      "OpenCV",
+      "Wavelet DSP",
+      "Matplotlib"
+    ],
+    "contributions": [
+      "Implemented adaptive multi-scale wavelet filter improving infant rPPG SNR by 3.8 dB."
+    ],
+    "projects": [
+      {
+        "title": "Pediatric Optical Denoising Suite",
+        "status": "Active",
+        "description": "Benchmarking wavelet denoising for motion-corrupted baby monitoring video streams."
+      }
+    ],
+    "avatarUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=600",
+    "email": "a.sharma.intern@mindh-lab.org",
+    "linkedinUrl": "https://www.linkedin.com/company/medical-informatics-and-digital-health-lab/",
+    "showEmail": true,
+    "showSocialLinks": true,
+    "showPublications": true,
+    "showProjects": true,
+    "isPublic": true,
+    "orderIndex": 8
+  },
+  {
+    "id": "member-11",
+    "name": "Daniel Brooks",
+    "role": "Machine Learning Research Intern",
+    "category": "Interns",
+    "credentials": "Undergraduate in Computer Science & Bioengineering",
+    "bio": "Developing lightweight temporal convolutional networks for real-time edge execution on ARM Cortex microcontrollers in wearable ECG patches.",
+    "detailedBio": "Daniel Brooks is a visiting research intern focused on tinyML model compression. He develops quantized 8-bit convolutional models to classify ambulatory arrhythmias directly on low-power wearable patches without cloud offloading.",
+    "labRoleDetail": "Develops tinyML benchmarks and microcontroller power profiling setups.",
+    "focus": [
+      "TinyML",
+      "Edge Neural Networks",
+      "Model Quantization",
+      "Wearable ECG"
+    ],
+    "skills": [
+      "TensorFlow Lite for Microcontrollers",
+      "PyTorch",
+      "C/C++",
+      "Nordic BLE"
+    ],
+    "contributions": [
+      "Quantized 1D ResNet to sub-50KB flash footprint running at 1.2mW on Cortex-M4."
+    ],
+    "projects": [
+      {
+        "title": "Sub-Milliwatt Arrhythmia Classifier",
+        "status": "Active",
+        "description": "On-device 12-lead ECG beat classification for smart Holter monitors."
+      }
+    ],
+    "avatarUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=80&w=600",
+    "email": "d.brooks.intern@mindh-lab.org",
+    "linkedinUrl": "https://www.linkedin.com/company/medical-informatics-and-digital-health-lab/",
+    "showEmail": true,
+    "showSocialLinks": true,
+    "showPublications": true,
+    "showProjects": true,
+    "isPublic": true,
+    "orderIndex": 9
+  },
+  {
+    "id": "member-12",
+    "name": "Priya Nair, B.Tech",
+    "role": "Project Scientist & Clinical Telemetry Engineer",
+    "category": "Project Staff",
+    "credentials": "B.Tech in Biomedical Instrumentation",
+    "bio": "Oversees bedside optical hardware calibration, camera telemetry rig maintenance in hospital ICUs, and data integrity audits under IRB protocols.",
+    "detailedBio": "Priya Nair is a full-time Project Scientist managing the clinical hardware infrastructure of the MINDH Lab. She oversees camera telemetry deployments across regional hospital ICUs, patient consent workflows, and secure clinical telemetry data ingest pipelines.",
+    "labRoleDetail": "Manages hospital testbed equipment, camera optical calibration, and IRB data compliance.",
+    "focus": [
+      "Clinical Testbed Hardware",
+      "IRB Protocol Compliance",
+      "Optical Rig Calibration",
+      "Secure Telemetry Ingestion"
+    ],
+    "skills": [
+      "Biomedical Equipment Testing",
+      "Linux Server Administration",
+      "Optical Rig Alignment",
+      "Clinical Data Pipelines"
+    ],
+    "contributions": [
+      "Maintained 99.8% uptime across 12 intensive care experimental beds over 18 consecutive months."
+    ],
+    "projects": [
+      {
+        "title": "Hospital ICU Multi-Bed Optical Infrastructure",
+        "status": "Active",
+        "description": "Continuous telemetry streaming network across adult and neonatal intensive care wards."
+      }
+    ],
+    "avatarUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=600",
+    "email": "p.nair@mindh-lab.org",
+    "linkedinUrl": "https://www.linkedin.com/company/medical-informatics-and-digital-health-lab/",
+    "showEmail": true,
+    "showSocialLinks": true,
+    "showPublications": true,
+    "showProjects": true,
+    "isPublic": true,
+    "orderIndex": 10
+  },
+  {
+    "id": "member-13",
+    "name": "Siddharth Sen, M.Tech",
+    "role": "Senior Project Associate & Embedded Systems Architect",
+    "category": "Project Staff",
+    "credentials": "M.Tech in Embedded Systems",
+    "bio": "Designs real-time firmware, BLE streaming protocols, and low-latency synchronization engines for clinical prototype devices.",
+    "detailedBio": "Siddharth Sen is a Senior Project Associate heading embedded firmware engineering. He architects high-throughput Bluetooth Low Energy streaming stacks and multi-sensor synchronization protocols powering MINDH wearable prototypes.",
+    "labRoleDetail": "Leads firmware engineering, hardware driver development, and PCB board bring-up.",
+    "focus": [
+      "Embedded Firmware",
+      "BLE Telemetry",
+      "RTOS Kernel Design",
+      "Hardware Bring-Up"
+    ],
+    "skills": [
+      "FreeRTOS",
+      "Embedded C/C++",
+      "nRF Connect SDK",
+      "KiCad PCB Design"
+    ],
+    "contributions": [
+      "Engineered microsecond-synchronized dual-optical and bio-impedance acquisition kernel."
+    ],
+    "projects": [
+      {
+        "title": "Wireless Multi-Sensor Biosensing Gateway",
+        "status": "Active",
+        "description": "Secure clinical hub synchronizing wearable patches and bedside camera clocks."
+      }
+    ],
+    "avatarUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=600",
+    "email": "s.sen@mindh-lab.org",
+    "linkedinUrl": "https://www.linkedin.com/company/medical-informatics-and-digital-health-lab/",
+    "showEmail": true,
+    "showSocialLinks": true,
+    "showPublications": true,
+    "showProjects": true,
+    "isPublic": true,
+    "orderIndex": 11
+  },
+  {
+    "id": "member-6",
+    "name": "Dr. Marcus Thorne, PhD",
+    "role": "Alumni (Former Senior Postdoc, Now Asst. Prof. at Johns Hopkins)",
+    "category": "Alumni",
+    "credentials": "PhD in Bioengineering (Assistant Professor, Johns Hopkins)",
+    "bio": "Former MINDH Postdoctoral Fellow (2020-2023) who pioneered explainable concept bottleneck models for bedside risk interpretation.",
+    "detailedBio": "Dr. Marcus Thorne was a postdoctoral fellow in the MINDH Lab from 2020 to 2023, where he co-developed the XAI Bedside Testbed. He is now a tenure-track Assistant Professor of Biomedical Engineering at Johns Hopkins University, continuing active research collaboration with MINDH on clinician interpretability.",
+    "labRoleDetail": "Adjunct collaborator and alumni mentor.",
+    "focus": [
+      "Explainable AI (XAI)",
+      "Concept Bottleneck Models",
+      "Clinical Recourse",
+      "Human-AI Teaming"
+    ],
+    "skills": [
+      "Interpretability Frameworks",
+      "Counterfactual Explanations",
+      "Clinician Usability Audits"
+    ],
+    "contributions": [
+      "Led the first clinical trial comparing clinician diagnostic speed with black-box vs concept-bottleneck ICU risk predictors."
+    ],
+    "projects": [
+      {
+        "title": "Clinician Interpretability & Alert Fatigue Mitigation",
+        "status": "Completed",
+        "description": "Bedside trial measuring provider trust calibration under conflicting model recommendations."
+      }
+    ],
+    "publications": [
+      {
+        "title": "Concept Bottleneck Models Reduce Clinician Automation Bias in Critical Care",
+        "year": 2023,
+        "journalOrConference": "Nature Machine Intelligence",
+        "doi": "10.1038/s42256-023-00712-4"
+      }
+    ],
+    "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=600",
+    "email": "m.thorne@jhu.edu",
+    "scholarUrl": "https://scholar.google.com",
+    "orcidUrl": "https://orcid.org/0000-0002-8812-4019",
+    "linkedinUrl": "https://www.linkedin.com/company/medical-informatics-and-digital-health-lab/",
+    "showEmail": true,
+    "showSocialLinks": true,
+    "showPublications": true,
+    "showProjects": true,
+    "isPublic": true,
+    "orderIndex": 12
   }
 ]

@@ -6,37 +6,13 @@ import { useEffect, useState } from "react";
 
 const SLIDE_DURATION = 7000;
 
-const slides = [
-  {
-    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1800&q=85",
-    label: "Research focus",
-    title: "Understanding health through data and context.",
-    text: "Our research connects clinical questions with methods that can be examined, tested, and improved.",
-    href: "/research",
-    action: "Explore research",
-  },
-  {
-    image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1800&q=85",
-    label: "Laboratory news",
-    title: "Methods for more useful health systems.",
-    text: "Read about current work, seminars, and developments from the group.",
-    href: "/news",
-    action: "Read the latest",
-  },
-  {
-    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1800&q=85",
-    label: "Research group",
-    title: "A collaborative home for careful work.",
-    text: "Meet the people bringing clinical, computational, and design perspectives together.",
-    href: "/research#group",
-    action: "Meet the group",
-  },
-];
 
-export function HeroCarousel() {
+
+export function HeroCarousel({ slides }: { slides: any[] }) {
   const [active, setActive] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
   const slide = slides[active];
+  if (!slide) return null;
 
   useEffect(() => {
     if (isPaused) return;

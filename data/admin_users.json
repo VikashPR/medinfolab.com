@@ -1,0 +1,12 @@
+[
+  {
+    "id": "admin-1",
+    "username": "admin",
+    "email": "admin@mindh-lab.org",
+    "salt": "80f1e6ae78753d5abf15ddb2331aa3d7",
+    "hash": "f96220f61853644c0c1600ae5dbc139272e0cdb9bff3110c685d11e77c88495cb0f03cf20f3321f4bb53beedba9e48a8b31200ac4794f14cb46b5ab1ad7207a9",
+    "role": "Super Admin",
+    "createdAt": "2026-10-08T10:33:19.392156Z",
+    "lastLogin": "2026-10-08T11:07:06.872Z"
+  }
+]

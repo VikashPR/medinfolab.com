@@ -1,0 +1,332 @@
+[
+  {
+    "id": "collab-1",
+    "name": "Massachusetts General Hospital & Harvard Medical School",
+    "shortName": "Mass General / Harvard",
+    "category": "Clinical & Hospital",
+    "location": "Boston, Massachusetts, USA",
+    "logoUrl": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=400",
+    "description": "Primary clinical trial partner for multi-bed ICU contactless optical telemetry, continuous neonatal hemodynamic monitoring, and acute sepsis early warning deployment.",
+    "jointFocus": [
+      "Zero-Contact ICU Hemodynamics",
+      "Continuous Pediatric Monitoring",
+      "Infectious Disease Isolation Telemetry",
+      "Clinical Protocol Adjudication"
+    ],
+    "keyContacts": [
+      "Dr. Sarah Al-Mansoor, MD (ICU Director)",
+      "Prof. Robert Lang, MD (Pulmonary Medicine)"
+    ],
+    "activeTrials": [
+      "Contactless ICU Vital Sign Extraction Trial (NCT05128911)",
+      "Pediatric Respiratory Distress Early Warning Pilot"
+    ],
+    "websiteUrl": "https://www.massgeneral.org",
+    "isFeatured": true,
+    "orderIndex": 1
+  },
+  {
+    "id": "collab-2",
+    "name": "Johns Hopkins Medicine & Whiting School of Engineering",
+    "shortName": "Johns Hopkins University",
+    "category": "Academic Institution",
+    "location": "Baltimore, Maryland, USA",
+    "logoUrl": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=400",
+    "description": "Pioneering collaborative research on explainable concept bottleneck architectures, physician alert fatigue mitigation, and human-in-the-loop clinical decision support.",
+    "jointFocus": [
+      "Explainable AI (XAI) for Critical Care",
+      "Concept Bottleneck Architectures",
+      "Physician Trust & Recourse Audits",
+      "Bedside Diagnostic Usability"
+    ],
+    "keyContacts": [
+      "Dr. Marcus Thorne, PhD (Assistant Professor)",
+      "Prof. Elena Rostova, MD, PhD"
+    ],
+    "activeTrials": [
+      "Multi-Hospital Clinician Diagnostic Usability Benchmark",
+      "Counterfactual Explanations in Emergency Triage"
+    ],
+    "websiteUrl": "https://www.hopkinsmedicine.org",
+    "isFeatured": true,
+    "orderIndex": 2
+  },
+  {
+    "id": "collab-3",
+    "name": "Stanford Health Care - Division of Cardiovascular Health",
+    "shortName": "Stanford Health Care",
+    "category": "Clinical & Hospital",
+    "location": "Stanford, California, USA",
+    "logoUrl": "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=400",
+    "description": "Multi-center clinical site evaluating wearable photoplethysmography and bio-impedance sensor fusion for ambulatory continuous blood pressure tracking and arrhythmia prediction.",
+    "jointFocus": [
+      "Cuffless Continuous Arterial Pressure",
+      "Ambulatory Arrhythmia Telemetry",
+      "Photoplethysmography Sensor Fusion",
+      "AAMI Protocol Validation"
+    ],
+    "keyContacts": [
+      "Prof. David K. Patel, MD, PhD (Adjunct Investigator)",
+      "Dr. Michael Chen, MD, FACC"
+    ],
+    "activeTrials": [
+      "CardioState Ambulatory Hypertension Cohort (1,500 Patients)",
+      "Beat-to-Beat PTT Hemodynamic Validation"
+    ],
+    "websiteUrl": "https://stanfordhealthcare.org",
+    "isFeatured": true,
+    "orderIndex": 3
+  },
+  {
+    "id": "collab-4",
+    "name": "MIT Institute for Medical Engineering and Science (IMES)",
+    "shortName": "MIT IMES & CSAIL",
+    "category": "Academic Institution",
+    "location": "Cambridge, Massachusetts, USA",
+    "logoUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=400",
+    "description": "Joint theoretical engineering on foundational physiological representation learning, high-dimensional wavelet manifolds, and edge-deployable temporal transformer models.",
+    "jointFocus": [
+      "Self-Supervised Biosignal Foundation Models",
+      "CardioState-10M Pre-training Benchmark",
+      "Wavelet Signal Decomposition",
+      "Edge Microprocessor Optimization"
+    ],
+    "keyContacts": [
+      "Prof. Alex Vance, PhD",
+      "Dr. Clara Zhang, PhD (Postdoctoral Affiliate)"
+    ],
+    "activeTrials": [
+      "10-Million-Hour Ambience Waveform Benchmark",
+      "Cross-Modal ECG-to-PPG Synthetic Reconstruction"
+    ],
+    "websiteUrl": "https://imes.mit.edu",
+    "isFeatured": true,
+    "orderIndex": 4
+  },
+  {
+    "id": "collab-5",
+    "name": "Philips Healthcare - Clinical Informatics Research",
+    "shortName": "Philips Healthcare",
+    "category": "Industry & Technology",
+    "location": "Cambridge, MA & Eindhoven, Netherlands",
+    "logoUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=400",
+    "description": "Industry co-development of HL7 FHIR real-time physiological telemetry interfaces and next-generation bedside patient monitor micro-services.",
+    "jointFocus": [
+      "HL7 FHIR Interoperability Protocols",
+      "Patient Monitor Hardware Integration",
+      "Medical Device Regulatory Pathways",
+      "Real-Time Telemetry Streaming"
+    ],
+    "keyContacts": [
+      "Dr. Jennifer Krause, PhD (Principal Scientist)",
+      "Markus Lindqvist (VP Clinical Systems)"
+    ],
+    "activeTrials": [
+      "Next-Generation Bedside Edge Module Pilot",
+      "Hospital Electronic Health Record Integration Verification"
+    ],
+    "websiteUrl": "https://www.philips.com/healthcare",
+    "isFeatured": true,
+    "orderIndex": 5
+  },
+  {
+    "id": "collab-6",
+    "name": "NVIDIA Healthcare & Life Sciences (Inception Partner)",
+    "shortName": "NVIDIA Healthcare",
+    "category": "Industry & Technology",
+    "location": "Santa Clara, California, USA",
+    "logoUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=400",
+    "description": "Accelerating bedside inference latency using NVIDIA Clara Holoscan and TensorRT, achieving sub-16ms multimodal model execution directly at point-of-care.",
+    "jointFocus": [
+      "Clara Holoscan Deployment Architecture",
+      "Sub-16ms Real-Time Inference Validation",
+      "TensorRT Biosignal Quantization",
+      "Bedside GPU Acceleration"
+    ],
+    "keyContacts": [
+      "Healthcare AI Solutions Engineering Team"
+    ],
+    "activeTrials": [
+      "Real-Time 60 FPS rPPG Video Processing Benchmarks",
+      "Hospital Point-of-Care Neural Engine Testing"
+    ],
+    "websiteUrl": "https://www.nvidia.com/en-us/industries/healthcare-and-life-sciences",
+    "isFeatured": true,
+    "orderIndex": 6
+  },
+  {
+    "id": "collab-7",
+    "name": "National Institutes of Health (NIH - NHLBI & NIBIB)",
+    "shortName": "National Institutes of Health",
+    "category": "Project Funding Companies",
+    "location": "Bethesda, Maryland, USA",
+    "logoUrl": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&q=80&w=600",
+    "description": "Primary federal grant sponsor for multi-year translational research on cuffless continuous arterial pressure monitoring and contactless optical ICU physiological sensing.",
+    "jointFocus": [
+      "Grant NIH R01 HL158921 (Continuous BP)",
+      "Grant NIH R21 EB032114 (Contactless ICU Telemetry)",
+      "Translational Clinical Science Governance",
+      "Open-Science Bio-Signal Benchmarks"
+    ],
+    "keyContacts": [
+      "Division of Cardiovascular Sciences Program Directorate",
+      "National Institute of Biomedical Imaging and Bioengineering"
+    ],
+    "activeTrials": [
+      "4-Year Multi-Center Translation Grant Pipeline",
+      "Physiological Telemetry Open Research Repository"
+    ],
+    "websiteUrl": "https://www.nih.gov",
+    "isFeatured": true,
+    "orderIndex": 7
+  },
+  {
+    "id": "collab-8",
+    "name": "National Science Foundation (NSF - Smart & Connected Health)",
+    "shortName": "National Science Foundation",
+    "category": "Project Funding Companies",
+    "location": "Alexandria, Virginia, USA",
+    "logoUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=600",
+    "description": "Federal co-sponsor funding algorithmic foundations of edge-computing spatial-temporal neural networks and sub-16ms bedside streaming models under the SCH initiative.",
+    "jointFocus": [
+      "NSF IIS-2104921 (Smart & Connected Health)",
+      "CPS: Real-Time Closed-Loop Critical Care",
+      "Edge Machine Learning Verification"
+    ],
+    "keyContacts": [
+      "Information & Intelligent Systems Division"
+    ],
+    "activeTrials": [
+      "Mathematical Wavelet Decomposition for ICU Artifacts",
+      "Bedside Privacy-Preserving Federated Learning"
+    ],
+    "websiteUrl": "https://www.nsf.gov",
+    "isFeatured": true,
+    "orderIndex": 8
+  },
+  {
+    "id": "collab-9",
+    "name": "Philips Healthcare Research & Clinical Informatics",
+    "shortName": "Philips Healthcare",
+    "category": "Project Funding Companies",
+    "location": "Cambridge, Massachusetts & Eindhoven, NL",
+    "logoUrl": "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=600",
+    "description": "Strategic corporate funding and joint technology co-development for next-generation contactless camera vitals integration with central nursing station monitoring systems.",
+    "jointFocus": [
+      "Industry R&D Co-Development Award",
+      "Central Station Multi-Bed Telemetry Integration",
+      "Optical Lux Compensation Hardware Protocols",
+      "Patient Privacy & Encryption Pipeline"
+    ],
+    "keyContacts": [
+      "Patient Care & Monitoring Solutions R&D Group"
+    ],
+    "activeTrials": [
+      "Hospital Ward Next-Gen Contactless Pilot Study",
+      "Ambulatory Optical Sensor Integration Trial"
+    ],
+    "websiteUrl": "https://www.philips.com/healthcare",
+    "isFeatured": true,
+    "orderIndex": 9
+  },
+  {
+    "id": "collab-10",
+    "name": "Medtronic Bio-Telemetry Research & Innovation",
+    "shortName": "Medtronic Ventures",
+    "category": "Project Funding Companies",
+    "location": "Minneapolis, Minnesota, USA",
+    "logoUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600",
+    "description": "Corporate sponsored research initiative backing miniature low-power bio-impedance acquisition hardware and micro-electrode skin interfaces for ambulatory arrhythmia detection.",
+    "jointFocus": [
+      "Physiological Bio-Sensing Research Grant",
+      "Ultra-Low Power Sub-mW Telemetry Benchmarks",
+      "Ambulatory Arrhythmia Early Warning",
+      "Sub-Cutaneous & Patch Wearable Form Factors"
+    ],
+    "keyContacts": [
+      "Cardiovascular Diagnostics & Services Medical Affairs"
+    ],
+    "activeTrials": [
+      "Longitudinal Holter & Patch Sensor Equivalence Study",
+      "Micro-Power Motion Compensation Engine Test"
+    ],
+    "websiteUrl": "https://www.medtronic.com",
+    "isFeatured": true,
+    "orderIndex": 10
+  },
+  {
+    "id": "collab-11",
+    "name": "American Heart Association (AHA) - Health Tech Collaborative",
+    "shortName": "American Heart Association",
+    "category": "Project Funding Companies",
+    "location": "Dallas, Texas, USA",
+    "logoUrl": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=600",
+    "description": "Supporting decentralized clinical trials and cardiovascular health equity research to provide ambulatory hemodynamic telemetry across underserved patient populations.",
+    "jointFocus": [
+      "Innovative Project Award: Wearable Optical Hemodynamics",
+      "Cardiovascular Health Disparity Reduction",
+      "Decentralized Tele-Cardiology Protocols",
+      "Longitudinal Patient Engagement"
+    ],
+    "keyContacts": [
+      "AHA Institute for Precision Cardiovascular Medicine"
+    ],
+    "activeTrials": [
+      "Community Ambulatory Hypertension Longitudinal Study",
+      "Mobile Health Equivalence Trials"
+    ],
+    "websiteUrl": "https://www.heart.org",
+    "isFeatured": false,
+    "orderIndex": 11
+  },
+  {
+    "id": "collab-12",
+    "name": "GE HealthCare Clinical Systems & Edison AI Foundation",
+    "shortName": "GE HealthCare",
+    "category": "Project Funding Companies",
+    "location": "Chicago, Illinois, USA",
+    "logoUrl": "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=600",
+    "description": "Industrial innovation partnership and research sponsorship for edge computing AI deployment, bedside telemetry streaming, and acute hemodynamic collapse prediction.",
+    "jointFocus": [
+      "Edison Ecosystem Translational Grant",
+      "Sub-16ms Bedside Stream Pipeline",
+      "EHR Interoperability & FHIR Protocols",
+      "Multi-Parameter ICU Anomaly Calibration"
+    ],
+    "keyContacts": [
+      "Patient Care Solutions Chief Technology Office"
+    ],
+    "activeTrials": [
+      "Multi-Center Intensive Care Triage Validation",
+      "Bedside Intelligence Hardware Acceleration"
+    ],
+    "websiteUrl": "https://www.gehealthcare.com",
+    "isFeatured": true,
+    "orderIndex": 12
+  },
+  {
+    "id": "collab-13",
+    "name": "Wellcome Trust - Translational Digital Health Innovation",
+    "shortName": "Wellcome Trust",
+    "category": "Project Funding Companies",
+    "location": "London, United Kingdom",
+    "logoUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=600",
+    "description": "Global philanthropic health foundation backing ethical clinical AI deployment, clinician explainability benchmarks, and low-resource neonatal continuous monitoring.",
+    "jointFocus": [
+      "Wellcome Translational Health Fellowship",
+      "Global Neonatal Non-Contact Vitals Pilot",
+      "Algorithmic Fairness & Demographic Calibration",
+      "Physician Alert Fatigue Recourse Audits"
+    ],
+    "keyContacts": [
+      "Digital Technology & Discovery Research Directorate"
+    ],
+    "activeTrials": [
+      "Cross-Continental Pediatric rPPG Clinical Pilot",
+      "Clinician XAI Trust & Interpretability Audit"
+    ],
+    "websiteUrl": "https://wellcome.org",
+    "isFeatured": false,
+    "orderIndex": 13
+  }
+]
